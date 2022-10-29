@@ -8,23 +8,19 @@
   font-family: Poppins, sans-serif;
 }
 
-a:hover {
+a: hover {
   background: #6070ff;
-  color:#fff;
+  color: #fff;
 }
 
-a:focus {
-  background:#2230D2;
-  color:#fff;
+a: focus {
+  background: #2230d2;
+  color: #fff;
 }
 
-a:disabled {
-  background:#fff;
-  color:#5E6C84;
-}
-
-.body {
-  font-family: Poppins, sans-serif;
+a: disabled {
+  background: #fff;
+  color: #5e6c84;
 }
 
 .blue {
@@ -95,7 +91,6 @@ a:disabled {
   font-style: normal;
   line-height: 24px;
   font-size: 16px;
-  flex: none;
 }
 
 .social_title {
