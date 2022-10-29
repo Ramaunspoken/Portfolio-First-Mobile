@@ -14,13 +14,13 @@ a:hover {
 }
 
 a:focus {
-  background: #2230D2;
+  background: #2230d2;
   color: #fff;
 }
 
 a:disabled {
   background: #fff;
-  color: #5E6C84;
+  color: #5e6c84;
 }
 
 .blue {
@@ -88,7 +88,7 @@ a:disabled {
   color: #344563;
   font-weight: 400;
   background: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-style: normal;
   line-height: 24px;
   font-size: 16px;
@@ -119,6 +119,7 @@ a:disabled {
 .social_icon {
   max-width: 100%;
 }
+
 .M-icon {
   margin-top: 4px;
   width: 22px;
