@@ -28,6 +28,7 @@ a:disabled {
 }
 
 /* Css for Header */
+
 .header_nav {
   display: flex;
   min-height: 10vh;
@@ -233,6 +234,7 @@ a:disabled {
   background: #2230d2;
   color: #fff;
 }
+
 a:disabled:hover {
   background: #fff;
   color: #5e6c84;
