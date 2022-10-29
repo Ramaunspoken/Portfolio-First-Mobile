@@ -9,7 +9,18 @@
 }
 
 a:hover {
-  color: #172b4d;
+  background: #6070ff;
+  color:#fff;
+}
+
+a:focus {
+  background:#2230D2;
+  color:#fff;
+}
+
+a:disabled {
+  background:#fff;
+  color:#5E6C84;
 }
 
 .body {
@@ -62,7 +73,7 @@ a:hover {
   min-height: 50vh;
   background-size: contain;
   flex-direction: column;
-  background-repeat: space;
+  background-repeat: no-repeat;
   background-image: url("./images/header-shapes mobile.png");
 }
 
@@ -80,6 +91,11 @@ a:hover {
   color: #344563;
   font-weight: 400;
   background: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  flex: none;
 }
 
 .social_title {
@@ -91,6 +107,7 @@ a:hover {
   display: flex;
   list-style: none;
   margin-top: 10px;
+  align-items: center;
 }
 
 .social_link a {
@@ -105,6 +122,10 @@ a:hover {
 
 .social_icon {
   max-width: 100%;
+}
+.M-icon {
+  margin-top: 4px;
+  width: 22px;
 }
 
 /* Css Styles for work section */
@@ -209,6 +230,15 @@ a:hover {
 .default_btn:hover {
   color: #fff;
   background: #396df2;
+}
+
+.default_btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+.default_btn:disabled {
+  background: #fff;
+  color: #5e6c84;
 }
 
 /* Css styles for about section */
