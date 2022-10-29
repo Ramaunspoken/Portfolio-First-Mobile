@@ -8,19 +8,19 @@
   font-family: Poppins, sans-serif;
 }
 
-a: hover {
+a:hover {
   background: #6070ff;
   color: #fff;
 }
 
-a: focus {
-  background: #2230d2;
+a:focus {
+  background: #2230D2;
   color: #fff;
 }
 
-a: disabled {
+a:disabled {
   background: #fff;
-  color: #5e6c84;
+  color: #5E6C84;
 }
 
 .blue {
@@ -56,6 +56,7 @@ a: disabled {
 }
 
 /* Css styles for main_container */
+
 .main_container {
   display: grid;
   row-gap: 25px;
@@ -225,6 +226,15 @@ a: disabled {
 .default_btn:hover {
   color: #fff;
   background: #396df2;
+}
+
+.default_btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+a:disabled:hover {
+  background: #fff;
+  color: #5e6c84;
 }
 
 /* Css styles for about section */
