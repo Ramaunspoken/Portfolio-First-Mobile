@@ -89,7 +89,7 @@ a:disabled {
   color: #344563;
   font-weight: 400;
   background: #fff;
-  font-family: 'Poppins';
+  font-family: Poppins, sans-serif;
   font-style: normal;
   line-height: 24px;
   font-size: 16px;
