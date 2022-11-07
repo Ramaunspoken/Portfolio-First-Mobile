@@ -92,3 +92,12 @@ a:hover {
 .social_icon {
   max-width: 100%;
 }
+
+.blue {
+  display: flex;
+  flex-wrap: wrap;
+}  
+
+.blue>li {
+  color: #6070ff
+}
