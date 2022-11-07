@@ -96,8 +96,16 @@ a:hover {
 .blue {
   display: flex;
   flex-wrap: wrap;
+  margin: 10px 0;
 }  
 
-.blue>li {
-  color: #6070ff
+.blue > li {
+  color: #6070ff;
+  list-style: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 8px;
+  background: #ebebff;
+  line-height: 16px;
+  font-size: 12px;
 }
