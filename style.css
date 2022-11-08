@@ -102,6 +102,8 @@ a:disabled {
 }
 
 .social_title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-size: 16px;
   font-weight: normal;
 }
@@ -168,6 +170,8 @@ a:disabled {
 }
 
 .work_title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   margin: 10px 0;
   color: #172b4d;
   font-size: 32px;
@@ -176,6 +180,8 @@ a:disabled {
 }
 
 .work_info {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   display: flex;
   overflow: hidden;
   color: #7a869a;
@@ -262,6 +268,8 @@ a:disabled:hover {
 }
 
 .sub_title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
@@ -283,12 +291,14 @@ a:disabled:hover {
 }
 
 .ul_item {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   padding: 10px;
   color: #253858;
   display: flex;
   align-items: center;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 300;
   background: #f7f7f9;
   margin: 10px;
   border-radius: 8px;
@@ -311,7 +321,7 @@ a:disabled:hover {
   background-color: #6070ff;
 }
 
-.title {
+.Title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   text-align: center;
@@ -321,7 +331,7 @@ a:disabled:hover {
   margin-top: 103px;
 }
 
-.contact_form_des {
+.CONTACT_form {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 20px;
