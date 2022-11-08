@@ -8,17 +8,17 @@
 
 a:hover {
   background: #6070ff;
-  color:#fff;
+  color: #fff;
 }
 
 a:focus {
-  background:#2230d2;
-  color:#fff;
+  background: #2230d2;
+  color: #fff;
 }
 
 a:disabled {
-  background:#fff;
-  color:#5e6c84;
+  background: #fff;
+  color: #5e6c84;
 }
 
 .html.body {
@@ -128,6 +128,7 @@ a:disabled {
 .social_icon {
   max-width: 100%;
 }
+
 .M-icon {
   margin-top: 4px;
   width: 22px;
@@ -246,6 +247,7 @@ a:disabled {
   background: #2230d2;
   color: #fff;
 }
+
 a:disabled:hover {
   background: #fff;
   color: #5e6c84;
