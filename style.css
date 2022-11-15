@@ -23,17 +23,6 @@ a:focus {
 a:disabled {
   background: #fff;
   color: #5e6c84;
-
-}
-
-a:focus {
-  background: #2230d2;
-  color: #fff;
-}
-
-a:disabled {
-  background: #fff;
-  color: #5e6c84;
 }
 
 .blue {
