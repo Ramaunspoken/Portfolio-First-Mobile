@@ -12,7 +12,7 @@ A basic and simple html and css Website that shows my work and projects
 - I used nodejs and git for linting the project
 
 ## Live Demo (if available)
-In order to check the Online version of 
+To check the Online version of 
 my portfolio visit: [Live Demo Link](https://ramaunspoken.github.io/Portfolio-First-Mobile/)
 
 
