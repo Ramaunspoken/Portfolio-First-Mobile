@@ -25,11 +25,11 @@ my portfolio visit: [Live Demo Link](https://ramaunspoken.github.io/Portfolio-Fi
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/amos-maina-514702248/)
 
 ## More about the project
-More about my project
+More about the project
 
 ![Loom video Image](https://user-images.githubusercontent.com/108424978/202722331-224e505f-4fd8-4d0c-935b-5c94fdcd463e.png)
 
-[Click Here To Watch My Loom Video](https://www.loom.com/share/1606e974cf024ff5bd899df9e8078bd4)
+[Click Here To Watch The Loom Video](https://www.loom.com/share/1606e974cf024ff5bd899df9e8078bd4)
 
 
 
