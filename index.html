@@ -48,7 +48,7 @@
     <main class="main_container">
         <!-- Headline section -->
         <section class="headline">
-            <h2 class="work_title">I’m Amos Glad to see you!</h2>
+            <h2 class="work_title">I’m Amos<br> Glad to see you!</h2>
             <p class="headline_content">
                 I’m a software developer! I can help you build a product , feature or website Look <br>through some of my work and experience! If you like what you see<br> and have a project you need coded, don’t hestiate to contact me.
             </p>
@@ -140,17 +140,18 @@
             </div>
             </div>
         </section>
-        <section class="contact_form">
+        <section class="contact_form" id="contact">
             <div class="contact_container">
             <h2 class="Title">Contact me</h2>
             <p class="CONTACT_form">
                 If you have an application you are interested in <br>developing, a feature that you need built or a project<br> that needs coding. I’d love to help with it
             </p>
-            <form class="form_container" action="https://formspree.io/f/mnqroaaw" method="POST">
+            <form class="form_container" id="contact-form" method="POST" action="https://formspree.io/f/mnqroaaw">
                 <fieldset class="form_inputs">
-                    <input class="form_input" name="name" type="text" placeholder="Yeremias" maxlength="30" required />
-                    <input class="form_input" name="email" type="email" placeholder="natajayanj14@gmail.com" required />
+                    <input class="form_input" name="name" id="name" type="text" placeholder="Yeremias" maxlength="30" required />
+                    <input class="form_input" name="email" id="email" type="email" placeholder="natajayanj14@gmail.com" required />
                     <textarea class="form_text_area" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
+                    <small id="form-info"></small>
                     <button type="submit" class="btn_submit">Get It Touch</button>
                 </fieldset>
             </form>
@@ -159,5 +160,4 @@
     </main>
     <script src="./App.js"></script>
 </body>
-
 </html>
