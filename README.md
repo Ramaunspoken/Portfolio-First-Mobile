@@ -23,6 +23,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
+  <a href=https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png></a>
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
