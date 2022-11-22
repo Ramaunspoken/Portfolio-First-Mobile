@@ -541,16 +541,12 @@ a:disabled {
   position: relative;
 }
 
-.article-image {
+.article-image img {
   display: flex;
   align-self: center;
   flex-direction: column;
   justify-self: center;
   width: 100%;
-}
-
-.article-image img {
-  max-width: 100%;
 }
 
 .article-block {
@@ -603,6 +599,11 @@ a:disabled {
 .article-btn:hover {
   background-color: #000530;
   color: #fff;
+}
+
+a.article-btn {
+  color: #6070ff;
+  text-decoration: none;
 }
 
 .btn-icon {
