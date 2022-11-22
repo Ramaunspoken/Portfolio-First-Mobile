@@ -5,12 +5,14 @@ const crossIcon = document.querySelector('.toggle-cross');
 let setMobileNav = false;
 
 function toggleNav() {
-  if (setMobileNav) {
-    navItems.classList.remove('df');
-    setMobileNav = false;
-  } else {
-    navItems.classList.add('df');
-    setMobileNav = true;
+if (setMobileNav) {
+  navItems.classList.remove('df');
+  setMobileNav = false;
+} 
+
+else {
+  navItems.classList.add('df');
+  setMobileNav = true;
   }
 }
 
