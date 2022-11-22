@@ -7,7 +7,7 @@
 }
 
 a:hover {
-  background: #ffffff;
+  background: #fff;
   color: #172b4d;
 }
 
@@ -103,7 +103,7 @@ a:disabled {
 }
 
 .nav_item_action:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #344563;
 }
 
@@ -594,7 +594,6 @@ a:disabled {
   align-items: center;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  font-size: 15px;
   line-height: 20px;
   font-weight: 500;
   max-width: 146px;
@@ -632,7 +631,7 @@ a:disabled {
     flex-direction: row;
   }
 
-  .mobile_nav_items{
+  .mobile_nav_items {
     display: none;
   }
 
