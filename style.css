@@ -7,8 +7,8 @@
 }
 
 a:hover {
-  background: #6070ff;
-  color: #fff;
+  background: #ffffff;
+  color: #172b4d;
 }
 
 a:focus {
@@ -25,8 +25,24 @@ a:disabled {
   font-family: Poppins, sans-serif;
 }
 
+.df {
+  display: flex !important;
+}
+
+.dn {
+  display: none !important;
+}
+
+.dib {
+  display: inline-block !important;
+}
+
+.db {
+  display: block !important;
+}
+
 .blue {
-  color: #6070ff;
+  color: #506fc7;
 }
 
 /* Css for Header */
@@ -49,6 +65,10 @@ a:disabled {
 
 .header_logo a {
   text-decoration: none;
+  position: relative;
+  animation-name: logoanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes logoanimation {
@@ -83,8 +103,47 @@ a:disabled {
 }
 
 .nav_item_action:hover {
-  color: #396df2;
-  background-color: #f7f7f9;
+  color: #ffffff;
+  background-color: #344563;
+}
+
+.mobile_nav_items {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  backdrop-filter: blur(7px);
+  padding: 70px 15px 15px 10px;
+  -webkit-backdrop-filter: blur(7px);
+  background: rgba(46, 64, 228, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.mobile_nav_items .nav_item_action {
+  width: 100%;
+  display: block;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.toggle-cross {
+  top: 20px;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  right: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.toggle-cross:hover {
+  background: #f00;
 }
 
 /* Css styles for main_container */
@@ -152,6 +211,7 @@ a:disabled {
 }
 
 .social_link a:hover {
+  padding: 10px;
   color: #172b4d;
 }
 
@@ -275,6 +335,7 @@ a:disabled {
   padding: 10px 20px;
   background: #fff;
   border-radius: 10px;
+  display: inline-block;
   border: 1px solid #396df2;
   transition: color 0.5s ease-in-out, background 0.2s ease-in-out;
 }
@@ -411,6 +472,10 @@ a:disabled:hover {
   transition: padding 0.3s ease-in-out;
 }
 
+.form_input:hover {
+  padding-left: 20px;
+}
+
 .form_input:focus {
   border: 1px solid #172b4d;
 }
@@ -429,6 +494,10 @@ a:disabled:hover {
   transition: padding 0.3s ease-in-out;
 }
 
+.form_text_area:hover {
+  padding-left: 20px;
+}
+
 .btn_submit {
   color: #6070ff;
   font-size: 17px;
@@ -444,6 +513,7 @@ a:disabled:hover {
 .btn_submit:hover {
   color: #fff;
   background: #6070ff;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -460,6 +530,10 @@ a:disabled:hover {
     align-self: center;
     justify-self: center;
     flex-direction: row;
+  }
+
+  .mobile_nav_items{
+    display: none;
   }
 
   .headline {
