@@ -511,6 +511,18 @@ a:disabled {
   padding-left: 20px;
 }
 
+.invalid {
+  border: 1px solid#ff0000;
+}
+
+.error {
+  font-family: 'Poppins', sans-serif;
+  color: #770505;
+  background: #fdadad;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .popup_article {
   width: 100%;
   height: 100%;
