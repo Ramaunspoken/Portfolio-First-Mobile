@@ -260,7 +260,7 @@ function fetchAllProject() {
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
-// start
+
 // Store formData in localStorage
 function loadLocalStorage() {
   const formData = JSON.parse(window.localStorage.getItem('formData'));
@@ -289,9 +289,9 @@ nameInput.addEventListener('change', onChange);
 emailInput.addEventListener('change', onChange);
 messageInput.addEventListener('change', onChange);
 
+// Load Data in dom on the fly
 window.onload = () => {
   fetchAllProject();
-  // eslint-disable-next-line no-undef
   loadLocalStorage();
 };
 
